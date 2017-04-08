@@ -1,12 +1,12 @@
 /**
  * Created by rips on 09.04.2017.
  */
-var sum = 20;
+var mul = 1;
 
-for (var i = 0; i < 10; ++i) {
-    sum += i;
+for (var i = 1; i < 10; ++i) {
+    mul *= i;
 }
 
-console.log(sum);
+console.log(mul);
 
-localStorage.setItem('sum', sum);
+localStorage.setItem('mul', mul);
